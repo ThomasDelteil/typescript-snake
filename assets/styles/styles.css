@@ -1,0 +1,65 @@
+.cell {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: left;
+	border: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: "Courier New";
+	color: black; 
+	background-color: orange;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+body {
+	background-image: url('../images/desert-tiles-opacity.png');
+	background-repeat: repeat;
+}
+
+div#snake {
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 5px solid grey;
+	background-image: url('../images/desert-tiles.png');
+	background-repeat: repeat;
+}
+
+.snake-head {
+	background-image: url('../images/snake_head.png');
+	background-repeat: round;
+}
+
+.snake-head-W {
+	transform: rotate(180deg);
+}
+
+.snake-head-E {
+	transform: rotate(0deg);
+}
+
+.snake-head-N {
+	transform: rotate(270deg);
+}
+
+.snake-head-S {
+	transform: rotate(90deg);
+}
+
+.snake {
+	background-image: url('../images/snake.png');
+	background-repeat: round;
+}
+
+.treat-1 {
+	background-image: url('../images/mouse.png');
+	background-repeat: round;
+}
+
+.treat-5 {
+	background-image: url('../images/elephant.gif');
+	background-repeat: round;
+}
