@@ -24,7 +24,7 @@ body {
 	margin: 0 auto;
 	border-radius: 5px;
 	border: 5px solid grey;
-    background-color: yellow;
+    	background-color: yellow;
 	background-repeat: repeat;
 }
 
@@ -50,12 +50,12 @@ body {
 }
 
 .snake {
-    background-color: green;
+    	background-color: green;
 	background-repeat: round;
 }
 
 .treat-1 {
-    background-color: blue;
+    	background-color: blue;
 	background-repeat: round;
 }
 
